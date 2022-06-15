@@ -1,0 +1,23 @@
+.slider-wrapper {
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: tomato;
+
+}
+.slider-track {
+    display: flex;
+}
+.slider-item {
+    min-width: 300px;
+    height: 100px;
+}
+.slider-item:nth-child(1) {
+    background-color: gray;
+}
+.slider-item:nth-child(2) {
+    background-color: blue;
+}
+.slider-item:nth-child(3) {
+    background-color: yellow;
+}
